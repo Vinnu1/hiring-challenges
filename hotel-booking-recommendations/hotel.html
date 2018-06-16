@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hotel Booking & Recommendations</title>
+</head>
+
+<body id="">
+  <h1 class="text-center">Hotel Info</h1>
+  <div class="container">
+      <div class="row">
+          <div class="col-10 col-sm-8 my-3 mx-auto">
+            <a href="index.html" class="btn btn-primary">Hotel List</a><br><br>
+            <div class="card card-col">
+                <div class="card-body">
+                  <h5 id="hotel_details" class="card-title"></h5>
+                  <p id="hotel_cost" class="card-text"></p>
+                  <div class="text-center">
+                    <button id="booknow" class="btn btn-success">Book Now</button>
+                  </div>
+                </div>
+                <div id="bookingArea" class="collapse">
+                    <div class="text-center">
+                    <input id="username" class="form-control mb-2" placeholder="Enter Name">
+                    <input id="no_of_days" class="form-control mb-2" type="number" placeholder="No. of Days(default 1)" min="1">  
+                    <button id="save" class="btn btn-info">Save</button>&nbsp;
+                    <button id="book" class="btn btn-success">Book</button>  
+                </div>
+                </div>
+              </div>
+              <br>
+              <div id="stats" class="d-none bg-info text-white p-1 rounded">
+                <h6>Stats <small>(till last reload)</small></h6>
+              </div>
+          </div>
+      </div>
+  </div> 
+
+
+  
+  
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Hotel JS Script-->
+  <script src="js/hotel.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Richmond Hotel",
+        "place":"New Delhi",
+        "cost_per_day":5000
+    },
+    {
+        "name":"Taj Mahal Hotel",
+        "place":"Mumbai",
+        "cost_per_day":4000
+    },
+    {
+        "name":"Hanging Hotel",
+        "place":"Darjeeling",
+        "cost_per_day":5000
+    },
+    {
+        "name":"Vinayak Hotel",
+        "place":"Noida",
+        "cost_per_day":4000
+    },
+    {
+        "name":"Gaiden Hotel",
+        "place":"Bangalore",
+        "cost_per_day":3500
+    },
+    {
+        "name":"Bhati Hotel",
+        "place":"New Delhi",
+        "cost_per_day":3000
+    }
+]
