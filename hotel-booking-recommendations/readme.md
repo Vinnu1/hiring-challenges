@@ -7,3 +7,6 @@ the score is added for that hotel. The hotels with top 3 scores will be displaye
 3. Booking - 3 Score
 
 If a user visits twice, save draft once and book once, the hotel score added to existing score will be = 2x1 + 1x1 + 3x1 = 6.
+
+### Live Site
+Project is live [here](http://vinayak.16mb.com/hotels-booking/index.html).
