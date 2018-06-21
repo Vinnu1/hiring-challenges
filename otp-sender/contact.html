@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>SMS OTP Sender</title>
+</head>
+
+<body id="">
+  <h1 class="text-center">Contact Info</h1>
+  <div class="container">
+      <div class="row">
+          <div class="col-10 col-sm-8 my-3 mx-auto">
+            <a href="index.html" class="btn btn-primary">Contact List</a><br><br>
+            <div class="card card-col">
+                <div class="text-center">
+                <img class="contact-image" src="./img/contact.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h5 id="contact_name" class="card-title"></h5>
+                  <p id="contact_number" class="card-text"></p>
+                  <div class="text-center">
+                    <button id="sms" class="btn btn-success">SMS</button>
+                  </div>
+                </div>
+                <div id="msgArea" class="collapse">
+                    <span id="otp" class="text-muted"></span><br>
+                    <textarea id="msg" class="form-control" rows="6" placeholder="Enter optional text here.."></textarea><br>
+                    <div class="text-center">
+                    <button id="send" class="btn btn-info">Send</button>
+                </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div> 
+
+
+  
+  
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Contact JS Script-->
+  <script src="js/contact.js"></script>
+</body>
+</html>

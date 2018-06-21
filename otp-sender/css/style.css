@@ -1,0 +1,12 @@
+.onhover-active:hover {
+  background-color: #000; }
+
+.contact-image {
+  height: 200px;
+  width: 200px; }
+
+textarea {
+  resize: none; }
+
+.card-col {
+  background-color: #F0FC83; }
